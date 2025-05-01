@@ -362,6 +362,22 @@ const renderProducts = (products) => {
     priceSection.appendChild(currentPriceText);
     card.appendChild(priceSection);    
 
+    const campaign = document.createElement("div");
+    campaign.textContent = "Farklı Ürünlerde 3 Al 2 Öde";
+    campaign.style.backgroundColor = "#e5f8f3";
+    campaign.style.width = "80%";
+    campaign.style.color = "#00a365";
+    campaign.style.borderRadius = "25px";
+    campaign.style.fontSize = "12px";
+    campaign.style.fontWeight = "600";
+    campaign.style.padding = "8px 12px";
+    campaign.style.display = "inline-block";
+    campaign.style.marginTop = "-20px";
+    campaign.style.marginLeft = "-5px";
+    campaign.style.marginBottom = "10px";
+
+    card.appendChild(campaign);
+
     const addToCard = document.createElement("button");
     addToCard.textContent = "Sepete Ekle";
     addToCard.style.position = "relative";
