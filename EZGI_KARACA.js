@@ -189,6 +189,7 @@ const renderProducts = (products) => {
     card.style.position = "relative";
     card.style.gap = "12px";
     card.style.color = "#7d7d7d";
+    card.style.width = "273px";
 
 
     card.style.position = "relative";
