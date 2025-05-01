@@ -373,7 +373,7 @@ const renderProducts = (products) => {
     campaign.style.fontWeight = "600";
     campaign.style.padding = "8px 12px";
     campaign.style.display = "inline-block";
-    campaign.style.marginTop = "-20px";
+    campaign.style.marginTop = "-5px";
     campaign.style.marginLeft = "-5px";
     campaign.style.marginBottom = "10px";
 
